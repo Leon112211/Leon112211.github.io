@@ -1,0 +1,18 @@
+.lanyard-wrapper {
+  position: relative;
+  z-index: 0;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  min-height: 420px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.lanyard-wrapper canvas {
+  display: block;
+  width: 100% !important;
+  height: 100% !important;
+  touch-action: none;
+}

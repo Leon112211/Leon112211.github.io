@@ -1,0 +1,51 @@
+<library path="gary_controller">
+
+    <class name="gary_controller/HardwareMonitor"
+           type="gary_controller::HardwareMonitor"
+           base_class_type="controller_interface::ControllerInterface">
+        <description>
+            monitor hardware status
+        </description>
+    </class>
+
+    <class name="gary_controller/PIDController"
+           type="gary_controller::PIDController"
+           base_class_type="controller_interface::ControllerInterface">
+        <description>
+            PID controller
+        </description>
+    </class>
+
+    <class name="gary_controller/PIDControllerWithFilter"
+           type="gary_controller::PIDControllerWithFilter"
+           base_class_type="controller_interface::ControllerInterface">
+        <description>
+            PID controller with filter
+        </description>
+    </class>
+
+    <class name="gary_controller/DualLoopPIDController"
+           type="gary_controller::DualLoopPIDController"
+           base_class_type="controller_interface::ControllerInterface">
+        <description>
+            dual loop PID controller
+        </description>
+    </class>
+
+    <class name="gary_controller/DualLoopPIDControllerWithFilter"
+           type="gary_controller::DualLoopPIDControllerWithFilter"
+           base_class_type="controller_interface::ControllerInterface">
+        <description>
+            dual loop PID controller with filter
+        </description>
+    </class>
+
+    <class name="gary_controller/CalibrationController"
+           type="gary_controller::CalibrationController"
+           base_class_type="controller_interface::ControllerInterface">
+        <description>
+            motor calibration controller
+        </description>
+    </class>
+
+</library>
