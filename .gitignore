@@ -1,7 +1,0 @@
-node_modules/
-dist/
-.vite/
-*.log
-task_plan.md
-findings.md
-progress.md

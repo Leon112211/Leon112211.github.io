@@ -1,4 +1,0 @@
-interface:
-  display_name: "Academic Portfolio Builder"
-  short_description: "Build a calm academic engineering portfolio"
-  default_prompt: "Use $build-academic-portfolio to create or refine this academic engineering portfolio website."
